@@ -43,17 +43,17 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art=""></canvas>
-		<script src="Build/Build.loader.js"></script>
+		<script src="Build/light-game.loader.js"></script>
 		<script>
 			var canvas = document.querySelector("#unity-canvas");
 			var config = {
-				dataUrl: "Build/Build.data",
-				frameworkUrl: "Build/Build.framework.js",
-				codeUrl: "Build/Build.wasm",
+				dataUrl: "Build/light-game.data",
+				frameworkUrl: "Build/light-game.framework.js",
+				codeUrl: "Build/light-game.wasm",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "IceTheGameDev",
 				productName: "light-game",
-				productVersion: "beta-7.0",
+				productVersion: "beta-7.1",
 			};
 			var scaleToFit;
 			try {
